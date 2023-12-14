@@ -166,7 +166,7 @@ void userDataEntry(User *users, UserData *historicalUserData, int numUsers, int 
     scanf("%lf", &userData.quantity);
     printf("Enter the unit price (in $/kWh): ");
     scanf("%lf", &userData.unitPrice);
-    printf("Enter the units consumed: ");
+    printf("Enter the total units consumed: ");
     scanf("%lf", &userData.unitsConsumed);
     system("cls");
     calculateBill(&userData);
